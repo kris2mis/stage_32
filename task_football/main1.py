@@ -3,7 +3,7 @@ from manager import Manager
 
 
 def main():
-    leo = FootballPlayer("Leo", "Messi", 910, 450)
+    leo = FootballPlayer("Leo", "Messi", 810, 450)
     cristiano = FootballPlayer("Cristiano", "Ronaldo", 840, 300)
     alex = FootballPlayer("Alessandro", "Del Piero", 750, 800)
     ivan = FootballPlayer("Ivan", "Ivanov")

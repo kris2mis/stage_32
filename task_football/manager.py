@@ -5,14 +5,17 @@ class Manager:
 
     def give_golden_ball(players):
         if isinstance(players, (list, tuple)):
-            max_goals = player._goal
+            max_goals = 0
+            for player in players:
 
-            if player._goal > :
-                total = player._goal
-            elif player._goal == total:
-                if player._assist > total:
-                    total = player._assist
-            return total
+                if player._goal > max_goals:
+                    max_goals = player._goal
+                # elif player._goal == max_goals:
+                #     if player._assist > max_goals:
+                #         max_goals = player._assist
+                return max_goals
+
+
 
 
 

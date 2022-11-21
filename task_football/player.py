@@ -59,4 +59,3 @@ class FootballPlayer:
     @assist.setter
     def assist(self, assist):
         self._assist = assist
-
