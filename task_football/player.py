@@ -16,6 +16,7 @@
 # результат равный, то золотой мяч отдаётся тому игроку, кто больше забил голов).
 
 
+
 class FootballPlayer:
     def __init__(self, name, surname, goal=1, assist=1):
         self._name = name
@@ -50,7 +51,8 @@ class FootballPlayer:
 
     @goal.setter
     def goal(self, goal):
-        self._goal = goal
+        if goal > 0:
+            self._goal = goal
 
     @property
     def assist(self):
@@ -58,4 +60,5 @@ class FootballPlayer:
 
     @assist.setter
     def assist(self, assist):
-        self._assist = assist
+        if assist > 0:
+            self._assist = assist

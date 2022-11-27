@@ -15,8 +15,8 @@ class RobotCreator:
         MAX_INTELLEGENCE = 100
         MIN_INTELLEGENCE = 1
 
-        MAX_PRICE = 1_000_000_000
-        MIN_PRICE = 1_000_000
+        MAX_PRICE = 1_000_000
+        MIN_PRICE = 1_000
 
         ls = []
 
